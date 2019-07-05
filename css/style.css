@@ -1,10 +1,10 @@
 html {
     margin: 0px auto;
-    width: 1921px;
+    width: 1920px;
 }
 
 body {
-    width: 1921px;
+    width: 1920px;
     margin: 0;
 }
   
@@ -12,4 +12,18 @@ body {
     margin-left:auto;
     margin-right:auto;
     width:50%;
+}
+
+header {
+    background: url(../img/photo.jpg) no-repeat, url(../img/bg-photo.jpg);
+    padding: 20px 75px;
+}
+
+.logo {
+    float: left; /*прижали к левой части, обтекание справа*/
+}
+
+.waxom {
+    font-size: 34px;
+    color: #FFFFFF;
 }
