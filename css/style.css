@@ -19,9 +19,17 @@ body {
     padding: 20px 75px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+}
+
 .logo a {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
     width: 181px;
     text-decoration: none;
@@ -38,9 +46,19 @@ body {
 }
 
 nav {
-
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
+.icon-cart:before {
+    content: "\f133";
+    font-family: FontAwesome;
+}
+.icon-search:before {
+    content: "\f002";
+    font-family: FontAwesome;
+}
 .vector-left {
     width: 41px;
     height: 74px;
