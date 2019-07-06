@@ -14,16 +14,43 @@ body {
     width:50%;
 }
 
-header {
-    background: url(../img/photo.jpg) no-repeat, url(../img/bg-photo.jpg);
+.one {
+    background: url(../img/photo.jpg) no-repeat;
     padding: 20px 75px;
 }
 
-.logo {
-    float: left; /*прижали к левой части, обтекание справа*/
+.logo a {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    width: 181px;
+    text-decoration: none;
+    /*float: left; /*прижали к левой части, обтекание справа*/
 }
 
 .waxom {
+    font-weight: 400;
+    text-align: right;
     font-size: 34px;
     color: #FFFFFF;
+    /*font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;*/
+
+}
+
+nav {
+
+}
+
+.vector-left {
+    width: 41px;
+    height: 74px;
+    background: url(../img/left.png) no-repeat;
+    border: 2px solid black;
+}
+
+.vector-right {
+    width: 41px;
+    height: 74px;
+    background: url(../img/right1.png) no-repeat;
+    border: 2px solid black;
 }
