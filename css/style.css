@@ -17,16 +17,19 @@ body {
 
 .one {
     background: url(../img/photo.jpg) no-repeat;
-    padding: 20px 75px;
+    padding: 20px 151px;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-bottom: 284px;
 }
 
 .logo {
     display: block;
+    margin-left: 375px;
 }
 
 .logo a {
@@ -42,19 +45,25 @@ header {
     text-align: right;
     font-size: 34px;
     color: #FFFFFF;
-    /*font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;*/
-
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    margin-left: 190px;
+}
+nav a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size:14px;
+    margin-left: 30px;
+}
+nav a:hover{
+    color: #9E8F7D;
 }
 
 .icon-cart:before {
     content: "\f133";
     font-family: FontAwesome;
+    margin-left: 32px;
 }
 .icon-search:before {
     content: "\f002";
@@ -64,12 +73,76 @@ nav {
     width: 41px;
     height: 74px;
     background: url(../img/left.png) no-repeat;
-    border: 2px solid black;
+}
+.vector-left:hover{
+    background: url(../img/left1.png) no-repeat;
+}
+.items{
+    display: flex;
+}
+.info{
+    text-align: center;
+    flex-grow: 2;
+    margin-bottom: 328px;
+}
+.ht{
+    display: block; 
+    width: 100%;
+    font-weight: 550;
+    color:#FFFFFF;
+    font-size:36px;
+}
+.ho{
+    font-weight: 700;
+    color:#FFFFFF;
+    font-size:52px;
+}
+.info p{
+    color:#FFFFFF;
+    font-size:16px;
+    margin: 0;
+    padding:0 0 51px 0;
+}
+.info-c {
+    width: 171px;
+    text-align: center;
+    padding: 22px 38px;
+    color:#FFFFFF;
+    background-color:#998675;
+    text-transform: uppercase; /*Все символы текста становятся прописными (верхний регистр)*/
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    font-weight: 600; /* Жирное начертание */
 }
 
+.buy-item a:hover {
+    font-weight: normal;
+}
+
+.buy-item a:active {
+    color: black;
+}
 .vector-right {
     width: 41px;
     height: 74px;
+    background: url(../img/right.png) no-repeat;
+}
+.vector-right:hover{
     background: url(../img/right1.png) no-repeat;
+}
+.v-00{
+    width: 100px;
+    height: 18px;
+    align-self: flex-end;
     border: 2px solid black;
+}
+.v-00 a{
+    width: 12px;
+    height: 12px;
+    background: url(../img/v-00.png) no-repeat;
+    border: 2px solid yellow;
+}
+.v-00 a:hover{
+    background: url(../img/v-hover.png) no-repeat;
 }
