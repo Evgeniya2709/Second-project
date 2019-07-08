@@ -85,7 +85,7 @@ nav a:hover{
     flex-grow: 2;
     margin-bottom: 328px;
 }
-.ht{
+.info.ht{
     display: block; 
     width: 100%;
     font-weight: 550;
@@ -180,4 +180,26 @@ figure a:hover svg{
 }
 figcaption:hover span{
     color: #C7B299;
-  }
+}
+.info-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FBFAF8;
+    padding: 84px 346px 0 346px;
+}
+.info-2 span{
+    display: block; 
+    width: 100%;
+    text-align: center;
+    font-weight: 550;
+    color:#555555;
+    font-size:30px;
+}
+.info-2 p{
+    display: block; 
+    max-width: 757px;
+    text-align: center;
+    color:#8C8C8C;
+    font-size:16px;
+}
