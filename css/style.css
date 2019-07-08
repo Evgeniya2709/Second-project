@@ -146,3 +146,38 @@ nav a:hover{
 .v-00 a:hover{
     background: url(../img/v-hover.png) no-repeat;
 }
+.info-1{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 78px 378px;
+}
+figure a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: #555555;
+  }
+figure:after{
+    content: "";
+    display: block;
+    width: 71px;
+    height: 4px;
+    background-color: #555555;
+    margin: 0 0 0 65px;
+}
+figure:hover:after {
+    background-color: #C7B299;
+}
+.icon {
+    fill: #555555;
+    margin: 0 0 30px 0;
+}
+figure a:hover svg{
+    fill: #C7B299;
+}
+figcaption:hover span{
+    color: #C7B299;
+  }
