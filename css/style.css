@@ -14,7 +14,21 @@ body {
     margin-right:auto;
     width:50%;
 }
-
+.c-1,
+.c-2,
+.c-3{
+  text-align: center;
+  color:#FFFFFF;
+  background-color:#998675;
+  text-transform: uppercase; /*Все символы текста становятся прописными (верхний регистр)*/
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  font-weight: 600; /* Жирное начертание */
+}
+p{
+    margin: 0;
+}
 .one {
     background: url(../img/photo.jpg) no-repeat;
     padding: 20px 151px;
@@ -103,17 +117,9 @@ nav a:hover{
     margin: 0;
     padding:0 0 51px 0;
 }
-.info-c {
+.c-1 {
     width: 171px;
-    text-align: center;
     padding: 22px 38px;
-    color:#FFFFFF;
-    background-color:#998675;
-    text-transform: uppercase; /*Все символы текста становятся прописными (верхний регистр)*/
-    border-radius: 5px;
-    font-size: 14px;
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-    font-weight: 600; /* Жирное начертание */
 }
 
 .buy-item a:hover {
@@ -207,18 +213,56 @@ figcaption:hover span{
     margin: 0 0 40px 0;
 }
 .browser-left{
-    position: absolute;
+    position: absolute;/*для определения места фото*/
     top: 301px;
     left: 70px;
     z-index: 1;
 }
 .browser-right{
-    position: absolute;
+    position: absolute;/*для определения места фото*/
     top: 301px;
     right: 70px;
     z-index: 1;
 }
 .browser-center{
-    margin: 0 auto;
+    margin: 0 auto;/*для определения места фото*/
     z-index: 2;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3D2A22;
+    padding: 50px 375px;
+}
+aside span{
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.text{
+    color: #C7B299;
+}
+aside p{
+    color: #615855;
+    font-size: 18px;
+}
+.c-2{
+    padding: 20px 29px;
+}
+.info-3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 375px;
+}
+.info-3 span{
+    display: block; 
+    width: 100%; /*заголовок над всеми остальными блоками*/
+    text-align: center;
+    color: #555555;
+    font-size: 30px;
+    font-weight: 600;
+}
+.info-3 p{
+    color: #8C8C8C;
+    font-size: 16px;
 }
