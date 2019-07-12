@@ -85,7 +85,7 @@ nav a:hover{
     flex-grow: 2;
     margin-bottom: 328px;
 }
-.info.ht{
+.ht{
     display: block; 
     width: 100%;
     font-weight: 550;
@@ -185,6 +185,7 @@ figcaption:hover span{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;/*для определения места фото*/
     background-color: #FBFAF8;
     padding: 84px 346px 0 346px;
 }
@@ -195,6 +196,7 @@ figcaption:hover span{
     font-weight: 550;
     color:#555555;
     font-size:30px;
+    margin: 0 0 24px 0;
 }
 .info-2 p{
     display: block; 
@@ -202,4 +204,21 @@ figcaption:hover span{
     text-align: center;
     color:#8C8C8C;
     font-size:16px;
+    margin: 0 0 40px 0;
+}
+.browser-left{
+    position: absolute;
+    top: 301px;
+    left: 70px;
+    z-index: 1;
+}
+.browser-right{
+    position: absolute;
+    top: 301px;
+    right: 70px;
+    z-index: 1;
+}
+.browser-center{
+    margin: 0 auto;
+    z-index: 2;
 }
